@@ -35,6 +35,7 @@ padding: 0 15px;
 
 .header{
 border-bottom: 1px solid #e7e9fc;
+box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-conteiner{
     display: flex;
@@ -61,9 +62,9 @@ font-family: "Raleway",
    
 }
 
-.logo:hover{
+/* .logo:hover{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
-}
+} */
 
 .navigation  {
     display: flex;
@@ -101,7 +102,7 @@ line-height: 1;
 .nav-link:hover, .nav-link:focus{
 color:#404BBF;
 text-decoration: none;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+/* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%); */
 }
 
 .current{
@@ -163,7 +164,7 @@ margin-left: auto;
 .contacts-link:hover,
 .contacts-link:focus{
     color: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%); */
 }
 
 /* section 1 */
@@ -219,7 +220,7 @@ font-weight: bold;
     border: none;
     border-radius: 4px;
     margin: 0 auto;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
  
   
@@ -275,15 +276,26 @@ font-weight: bold;
 
 }
 
+.section-two-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+
+}
  
-.vector{
+/* .vector{
 width: 264px;
 height: 112px;
 border-radius: 4px;
 background-color: #f4f4fd ;
 padding: 24px 100px;
  
-}
+} */
 
 .icon-section-two{
   
@@ -343,10 +355,8 @@ gap: 14px; */
 
 .section-three-name{
 /* padding: 32px 0; */
-padding-top: 32px;
-padding-left: 0;
-padding-right: 0;
-padding-bottom: 0;
+
+padding: 32px 0;
 
 }
 
@@ -390,16 +400,23 @@ padding-bottom: 0;
 
 .conteiner-icon{
     display: flex;
-    /* gap: 24px; */
-    justify-content: space-around;
+    gap: 24px;
+    justify-content: center;
     
    
     
 }
 
+.conteiner-icon-list{
+    width: 40px;
+    height: 40px;
+}
+
 .link-icon{
-width: 40px;
-height: 40px;
+/* width: 40px;
+height: 40px; */
+height: 100%;
+width: 100%;
 background-color: #4D5AE5;
 border-radius: 50%;
 display: flex;
@@ -415,7 +432,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .link-icon:hover,
 .link-icon:focus{
-    background-color: #31D0AA;
+    background-color: #404bbf;
 }
 
 .icon{
