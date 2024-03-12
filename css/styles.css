@@ -596,12 +596,7 @@ margin-bottom: 16px;
 
 .social-media{
 display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 232px;
-    height: 40px;
-    gap: 16px;
+gap: 16px;
 }
 
 .list-media{
